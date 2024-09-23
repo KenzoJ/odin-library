@@ -3,15 +3,43 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 header, footer {
     background-color: #333;
-    color: white;
+    color: rgb(237, 237, 237);
     text-align: center;
     padding: 1em 0;
 }
 
 main {
     padding: 1em;
+}
+
+#page-1 {
+    background-image: url("images/school.jpeg");
+    height: 100vh; 
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#page-2 {
+    background-image: url("images/door.jpeg");
+    height: 100vh; 
+    background-size: 50% auto;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-color: rgb(247, 242, 230);
+}
+
+#page-3 {
+    background-image: url("images/pixil-frame-0.png");
+    height: 100vh; 
+    background-size: 90vh;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-color: #c2bca4
 }
