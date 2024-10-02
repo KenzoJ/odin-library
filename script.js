@@ -1,4 +1,4 @@
-/* document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const myLibrary = [
         "Great Gumble",
         "Laws of propane",
@@ -10,10 +10,9 @@
 
     function showLibrary() {
         const libraryContainer = document.getElementById('books');
-        libraryContainer.innerHTML = myLibrary.map(book => `<div>${book}</div>`).join('');
+        libraryContainer.innerHTML = myLibrary.map(book => `<div class="book-item">${book}</div>`).join('');
     }
 });
- */
 
 function Book() {
     // the constructor...
