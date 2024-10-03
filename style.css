@@ -42,22 +42,17 @@ main {
     background-position: center;
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-color: #c2bca4;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: row;
-    padding-bottom: 31vh;
-    padding-right: 47vw;
+    position: relative;
 }
 
 #books {
-    
     color: white;
     display: flex;
     flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
     gap: 10px;
     align-items: flex-end;
-    
+
 }
 
 .book-item {
@@ -75,3 +70,36 @@ main {
     transform: scale(1.05);
     box-shadow: 0 4px 8px black;
 }
+
+#computer {
+    position: absolute;
+    right: 1vw;
+    bottom: 1vh;
+}
+
+#computer-screen {
+
+}
+
+#form-on-screen {
+    position: absolute;
+  background-color: rgba(181, 181, 181, 0.8);
+  padding: 10px;
+  right: 7vh;
+  bottom: 20vh;
+  height: 30vh;
+  width: 33vw;
+}
+
+.shelf {
+    position: absolute;
+    right: 39vw;
+    width: 40vw;
+    bottom: 48vh;
+}
+
+#book-form {
+    display: grid;
+    font-size: larger;
+  }
+

@@ -17,7 +17,29 @@
 
     </div>
     <div id="page-3">
-        <div id="books"></div>
+        <div id="computer">
+            <img src="images/screen-smaller.png" alt="monitor" id="computer-screen">
+        </div>
+        <div id="form-on-screen">
+            <form id="book-form" action="submit">
+                <label for="book-name">Book Name:</label>
+                <input type="text" id="book-name" name="book-name" required>
+                <br>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+                <br>
+                <label for="read">Read:</label>
+                <input type="checkbox" id="read" name="read">
+                <br>
+                <button type="submit">Add Book</button>
+            </form>
+
+        </div>
+        <div class="shelf">
+            <div id="books"></div>
+        </div>
+
+        
     </div>
     <footer>
         <p>&copy; 2023 My Website</p>
